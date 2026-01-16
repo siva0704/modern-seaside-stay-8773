@@ -9,6 +9,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
+  base: "/modern-seaside-stay-8773/",
   plugins: [
     react(),
     mode === 'development' &&
