@@ -22,7 +22,7 @@ const App = () => (
       <LanguageProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter basename="/modern-seaside-stay-8773">
+        <BrowserRouter basename="/realestate-project-no-3">
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/apartments" element={<Apartments />} />
